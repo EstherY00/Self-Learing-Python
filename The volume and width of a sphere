@@ -1,0 +1,9 @@
+# 구의 부피와 겉넓이
+raw_num = input("구의 반지름을 입력해주세요: ")
+r = float(raw_num)
+pi = 3.141592
+v = (4/3) * pi * (r*r*r)
+s = 4 * pi * (r*r)
+
+print("= 구의 부피는 {:.13f} 입니다".format(v))
+print("= 구의 겉넓이는 {:.4f} 입니다".format(s))
